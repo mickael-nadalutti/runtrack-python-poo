@@ -1,0 +1,11 @@
+class Personne:
+    def __init__(self, Nom, Prenom):
+        self.Nom = Nom
+        self.Prenom = Prenom
+
+    def SePresenter(self):
+        return f" Je suis {self.Nom} {self.Prenom}"
+
+print (Personne.SePresenter(Personne('John', 'Doe')))
+print (Personne.SePresenter(Personne('Jean', 'Dupond')))
+
